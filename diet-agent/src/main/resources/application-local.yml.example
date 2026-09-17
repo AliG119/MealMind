@@ -1,0 +1,9 @@
+# Copy to application-local.yml (gitignored) and fill in local secrets.
+# Or set the same values as environment variables before running.
+spring:
+  datasource:
+    username: root
+    password: your-mysql-password
+agentscope:
+  dashscope:
+    api-key: your-dashscope-api-key
